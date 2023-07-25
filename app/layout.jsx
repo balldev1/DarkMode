@@ -11,7 +11,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className="dark">
+        {children}
+      </body>
     </html>
   )
 }
+{/* <div class="bg-[url('https://www.cleverfiles.com/howto/wp-content/uploads/2018/03/minion.jpg)]"> */ }
